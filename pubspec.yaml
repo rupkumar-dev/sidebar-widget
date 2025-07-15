@@ -1,0 +1,23 @@
+name: sidebar_widget
+description: A customizable Flutter sidebar navigation package with support for nested navigation, animations, and hover effects.
+version: 0.1.0
+homepage: https://rupkumar-dev.github.io/sidebar-widget/
+repository: https://github.com/rupkumar-dev/sidebar-widget
+
+
+environment:
+  sdk: ^3.8.1
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.5
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:

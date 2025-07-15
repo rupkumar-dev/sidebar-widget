@@ -20,7 +20,8 @@ A highly customizable sidebar navigation package for Flutter applications that p
 
 ## 📸 Screenshots
 
-![desktop-ui](https://github.com/masteronevil/sidebar-widget/blob/main/assets/desktop-gif.gif?raw=true)
+<img src="https://github.com/user-attachments/assets/b0900338-f362-450b-889f-7b0603b46b72" alt="desktop-ui" width="940"/>
+<img src="https://github.com/user-attachments/assets/a2ac6bb1-47db-45b0-8b9d-6b056b745cce" alt="Animation" width="940"/>
 
 ## Installation 📦
 
@@ -113,7 +114,7 @@ The sidebar is highly customizable. Here are some key properties:
 
 The sidebar automatically adapts to mobile screens:
 
-![mobile-ui](https://github.com/masteronevil/sidebar-widget/blob/main/assets/mobile-gif.gif?raw=true)
+<img src="https://github.com/user-attachments/assets/04bad514-e074-4715-b077-2dcbbbf27c3b" alt="Animation" width="250"/>
 
 ## Contributing 🤝
 

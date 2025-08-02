@@ -3,7 +3,7 @@
 [![Pub Version](https://img.shields.io/pub/v/sidebar_widget.svg)](https://pub.dev/packages/sidebar_widget)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A highly customizable sidebar navigation package for Flutter applications that provides a beautiful, responsive, and feature-rich navigation experience. Perfect for admin panels, dashboards, and complex navigation structures.
+A highly customizable sidebar navigation package for Flutter applications that provides a beautiful, responsive, and feature-rich navigation experience. Perfect for admin panels, dashboards, and complex navigation structures.##sidebar
 
 
 ## Features ✨
@@ -20,8 +20,7 @@ A highly customizable sidebar navigation package for Flutter applications that p
 
 ## 📸 Screenshots
 
-<img src="https://github.com/user-attachments/assets/b0900338-f362-450b-889f-7b0603b46b72" alt="desktop-ui" width="940"/>
-<img src="https://github.com/user-attachments/assets/a2ac6bb1-47db-45b0-8b9d-6b056b745cce" alt="Animation" width="940"/>
+<img src="https://github.com/user-attachments/assets/a2ac6bb1-47db-45b0-8b9d-6b056b745cce?raw=true" alt="Animation" width="940"/>
 
 ## Installation 📦
 
@@ -114,8 +113,8 @@ The sidebar is highly customizable. Here are some key properties:
 
 The sidebar automatically adapts to mobile screens:
 
-<img src="https://github.com/user-attachments/assets/04bad514-e074-4715-b077-2dcbbbf27c3b" alt="Animation" width="250"/>
 
+<img src="https://github.com/user-attachments/assets/04bad514-e074-4715-b077-2dcbbbf27c3b?raw=true" alt="Mobile" width="250"/>
 ## Contributing 🤝
 
 Contributions are welcome! Please feel free to submit a Pull Request.
@@ -126,14 +125,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support ❤️
 
-If you find this package helpful, please give it a ⭐️ on [GitHub](https://github.com/masteronevil/sidebar-widget)!
+If you find this package helpful, please give it a ⭐️ on [GitHub](https://github.com/rupkumar-dev/sidebar-widget)!
 
 
 
 
 ## 📚 Documentation
 
-For detailed documentation and examples, visit our [LivePreview](https://masteronevil.github.io/sidebar-widget/).
+For detailed documentation and examples, visit our [LivePreview](https://rupkumar-dev.github.io/sidebar-widget/).
 
 ## 🤝 Contributing
 
@@ -151,7 +150,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Rupkumar Sarkar** - *Initial work* - [YourGithubProfile](https://github.com/masteronevil)
+- **Rupkumar Sarkar** - *Initial work* - [GithubProfile](https://github.com/rupkumar-dev)
 
 ## 🙏 Acknowledgments
 
@@ -163,8 +162,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions, feel free to reach out:
 
 - Email: rupkumarcomputer@gmail.com
-- Instagram: [@masteronevil](https://www.instagram.com/masteronevil/)
+- Instagram: [@rupkumar.dev](https://www.instagram.com/rupkumar.dev/)
 
 ---
 
-Made with ❤️ by [Rupkumar Sarkar]
+Made with ❤️ by Rupkumar Sarkar

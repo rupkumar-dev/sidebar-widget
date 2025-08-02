@@ -1,4 +1,6 @@
 # Changelog
+## [0.1.5] - 2025-08-02
+refactor: update sidebar widget configuration and remove unused controller
 
 All notable changes to the sidebar_widget package will be documented in this file.
 ## [0.1.4] - 2025-07-14

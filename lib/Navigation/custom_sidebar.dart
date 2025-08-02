@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'model/navigation_item.dart';
+import 'widget/config.dart';
 import 'widget/sidebar_widget.dart';
-import 'sidebar_controller.dart';
+import 'provider/sidebar_controller.dart';
 
 /// A customizable sidebar widget that supports navigation items and nested routes.
 /// Handles route matching, item expansion, and selection states.
@@ -11,11 +12,11 @@ class CustomSideBar extends StatelessWidget {
   /// List of items to display in the sidebar. Can contain both NavigationItem and Widget.
   final List<dynamic> items;
 
-  /// Background color of the sidebar.
-  final Color? backgroundColor;
+  /// Configuration for the sidebar appearance
+  final SidebarConfig? sidebarConfig;
 
-  /// Width of the sidebar.
-  final double? width;
+  /// Configuration for the sidebarItem appearance
+  final ItemConfig? itemConfig;
 
   /// Callback function when a route is selected.
   final Function(String)? onRouteSelected;
@@ -28,8 +29,8 @@ class CustomSideBar extends StatelessWidget {
     super.key,
     required this.items,
     this.currentRoute,
-    this.backgroundColor,
-    this.width,
+    this.sidebarConfig,
+    this.itemConfig,
     this.onRoute = false,
     this.onRouteSelected,
   });
@@ -41,9 +42,9 @@ class CustomSideBar extends StatelessWidget {
       child: Consumer<SidebarController>(
         builder: (context, controller, _) {
           return Container(
-            padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
-            color: backgroundColor,
-            width: width,
+            padding: sidebarConfig?.padding,
+            color: sidebarConfig?.backgroundColor,
+            width: sidebarConfig?.width,
             child: ListView.builder(
               cacheExtent: 300,
               itemCount: items.length,
@@ -55,6 +56,10 @@ class CustomSideBar extends StatelessWidget {
                 return SidebarWidget(
                   item: navItem,
                   index: index,
+                  selectedColor: itemConfig?.selectedItemColor,
+                  iconBagroundColor: itemConfig?.iconBagroundColor,
+                  iconColor: itemConfig?.iconColor,
+                  textColor: itemConfig?.textColor,
                   itemExpanded: controller.itemExpandedIndex == index,
                   isSelected: controller.selectedIndex == index,
                   selectedSubIndex: controller.selectedSubIndex,

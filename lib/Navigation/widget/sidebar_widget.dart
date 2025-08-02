@@ -12,6 +12,10 @@ class SidebarWidget extends StatelessWidget {
   final int? selectedSubIndex;
   final VoidCallback itemOnTap;
   final Function(int) onSubItemTap;
+  final Color? selectedColor;
+  final Color? iconBagroundColor;
+  final Color? iconColor;
+  final Color? textColor;
 
   const SidebarWidget({
     super.key,
@@ -22,6 +26,10 @@ class SidebarWidget extends StatelessWidget {
     required this.itemOnTap,
     required this.onSubItemTap,
     this.selectedSubIndex,
+    this.selectedColor,
+    this.iconBagroundColor,
+    this.iconColor,
+    this.textColor,
   });
 
   @override
@@ -30,7 +38,11 @@ class SidebarWidget extends StatelessWidget {
       final int subIndex = entry.key;
       final sub = entry.value;
       return CustomListTile(
+        iconBagroundColor: iconBagroundColor,
+        iconColor: iconColor,
+        textColor: textColor,
         key: ValueKey(index * 100 + subIndex),
+        selectedColor: selectedColor,
         isSelected: selectedSubIndex == subIndex && isSelected,
         title: sub.title,
         icon: sub.icon ?? Icons.subdirectory_arrow_right,
@@ -40,6 +52,10 @@ class SidebarWidget extends StatelessWidget {
 
     return CustomListTile(
       key: ValueKey('main_item_$index'),
+      selectedColor: selectedColor,
+      iconBagroundColor: iconBagroundColor,
+      iconColor: iconColor,
+      textColor: textColor,
       title: item.title,
       icon: item.icon,
       itemExpanded: itemExpanded,

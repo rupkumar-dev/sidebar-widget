@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:go_router/go_router.dart';
+import 'package:sidebar_widget/Navigation/widget/config.dart';
 import 'package:sidebar_widget/sidebar_widget.dart';
 import 'package:provider/provider.dart';
 import 'sitebaritem.dart';
@@ -74,8 +75,11 @@ class Sidebar extends StatelessWidget {
     return CustomSideBar(
       currentRoute: path,
       items: items,
-      backgroundColor: Colors.black87,
-      width: 250,
+sidebarConfig: SidebarConfig(
+        backgroundColor: Colors.black87,
+        width: 250,
+      ), 
+      
       onRouteSelected: (route) {
         context.goNamed(route);
       },

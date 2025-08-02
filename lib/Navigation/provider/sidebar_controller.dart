@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'model/navigation_item.dart';
+import '../model/navigation_item.dart';
 
 class SidebarController extends ChangeNotifier {
   int _itemExpandedIndex = -1;
